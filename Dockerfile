@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN javac HelloWorld.java
+RUN javac LargestSumAverage.java
 
-CMD ["java", "HelloWorld"]
+CMD ["java", "LargestSumAverage"]
